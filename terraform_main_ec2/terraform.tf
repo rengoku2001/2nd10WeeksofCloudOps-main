@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "myapple123"
+    bucket = "venkrealme"
     key    = "ec2/terraform.tfstate"
     region = "ap-south-1"
   }
